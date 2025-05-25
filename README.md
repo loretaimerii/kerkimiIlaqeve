@@ -33,12 +33,12 @@ app/: Contains the application's core logic, including models and controllers. r
 
 ## Features implemented
 
-Authentication: User registration, User login and logout, Laravel's built-in authentication via Laravel Breeze Session-based access control
-Authenticated users can: search for ndc codes, delete some of them from local database and download the results into a csv file.
-Homepage Lists an input field to search ndc codes, separated with comma
+1. Authentication: User registration, User login and logout, Laravel's built-in authentication via Laravel Breeze Session-based access control
+2. Authenticated users can: search for ndc codes, delete some of them from local database and download the results into a csv file.
+3. Homepage Lists an input field to search ndc codes, separated with comma
 
 ## Future improvements
 
-Add filters (e.g., by labeler_name, product_type)
-View detailed drug information on a separate page
-Track which drugs are searched the most
+1. Add filters (e.g., by labeler_name, product_type)
+2. View detailed drug information on a separate page
+3. Track which drugs are searched the most

@@ -42,3 +42,4 @@ app/: Contains the application's core logic, including models and controllers. r
 1. Add filters (e.g., by labeler_name, product_type)
 2. View detailed drug information on a separate page
 3. Track which drugs are searched the most
+4. Display a spinner/loading during the search: This feature was planned to be implemented using JavaScript. When the user clicks the search button, a loading spinner should be shown and kept visible until the results are returned. This was supposed to be done using a hidden div with Tailwind.

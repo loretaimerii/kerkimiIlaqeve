@@ -27,17 +27,17 @@ Laravel
     5. Set up the database: Run the migrations to create the necessary database tables: php artisan migrate
     6. Run the application: Start the application locally using: php artisan serve
 
-### 3. Project Structure
+## Project Structure
 
 app/: Contains the application's core logic, including models and controllers. resources/views/: Contains the Blade template views for rendering the HTML. routes/web.php: Defines the routes for the application (e.g., home, register, login). database/migrations/: Contains the migration files used to create and update the database schema.
 
-### 4. Features implemented
+## Features implemented
 
 Authentication: User registration, User login and logout, Laravel's built-in authentication via Laravel Breeze Session-based access control
 Authenticated users can: search for ndc codes, delete some of them from local database and download the results into a csv file.
 Homepage Lists an input field to search ndc codes, separated with comma
 
-### 5. Future improvements
+## Future improvements
 
 Add filters (e.g., by labeler_name, product_type)
 View detailed drug information on a separate page
